@@ -51,7 +51,7 @@ mapgl::maplibre_view(loc,
     mapgl::add_source("area",  data = loc) |>
     mapgl::add_source("casos", data = z) |>
     # Límites de la ciudad
-    add_fill_layer(id           = "ciudad-fill",
+    mapgl::add_fill_layer(id           = "ciudad-fill",
                    source       = "area",
                    fill_color   = "transparent",
                    fill_opacity = 0) |>

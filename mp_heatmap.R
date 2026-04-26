@@ -30,6 +30,8 @@ mp_heatmap <- function(geocoded_dataset,
     
     mapgl::maplibre_view(loc,
                          color = NA,
+                         width = "100%",
+                         height = "400px",
                          #style = carto_style(style_name = "voyager")
                          style = mapgl::carto_style(style_name = "positron")) |>
         mapgl::add_source("area",  data = loc) |>
