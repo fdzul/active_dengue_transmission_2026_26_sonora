@@ -1,0 +1,15 @@
+---
+title: "Programa de Prevención y Control de Arbovirosis | 2026 | Sonora"
+format: 
+  dashboard:
+    nav-buttons: [twitter, github, facebook]
+    logo: https://framework-gb.cdn.gob.mx/gobmx/img/logo_blanco.svg
+theme: custom.scss
+---
+
+```{r setup}
+library(sf)
+library(magrittr)
+library(mapgl)
+load("/Users/fdzul/Documents/geocoding_mx_2026_dengue/4.RData/dengue_mx_2026.RData")
+```
