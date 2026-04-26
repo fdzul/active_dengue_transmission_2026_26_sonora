@@ -30,7 +30,7 @@ load("/Users/fdzul/Documents/geocoding_mx_2026_dengue/4.RData/dengue_mx_2026.RDa
 
 ::: panel-tabset
 
-### [**Sonora**]{style="color:#990000"}
+
 ### [**Hermosillo**]{style="color:#990000"}
 
 ```{=html}
